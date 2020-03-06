@@ -108,7 +108,7 @@
             
             <a-assets>
 		    
-		<a-asset-item id="cityModel" src="https://cdn.aframe.io/test-models/models/glTF-2.0/virtualcity/VC.gltf"></a-asset-item>
+		<!--<a-asset-item id="cityModel" src="https://cdn.aframe.io/test-models/models/glTF-2.0/virtualcity/VC.gltf"></a-asset-item>-->
 		<a-asset-item id="objModel" src="model/AR_model.obj"></a-asset-item>
                 
                 <!-- Invitation  Video -->
@@ -133,9 +133,9 @@
 
             <a-marker id="marker1" type='pattern' url='markers/letterA.patt'><!-- video-vidhandler>-->
 		<!--<a-obj-model src="#objModel" scale="0.5 0.5 0.5"></a-obj-model>-->
-		<!--<a-entity obj-model="obj: url(model/AR_model.obj)" scale="0.1 0.1 0.1" position="0 0.1 0"></a-entity>-->
+		<a-entity obj-model="obj: url(model/AR_model.obj)" scale="0.01 0.01 0.01" position="0 0.05 0"></a-entity>
 		<!--<a-entity gltf-model="objModel" scale="0.7 0.7 0.7"></a-entity>-->
-                <a-box position='0 1 0' depth="4" height="2" width="0.5" material='color: red;'></a-box>
+                <a-box position='0 1 0' depth="0.1" height="0.1" width="0.1" material='color: red;'></a-box>
                 <!---plane scale = "4 2" position='0 0.1 0' rotation="-90 0 0" material='transparent:true;src:#invitation' controls></a-plane>-->
                 <!--<a-entity text="font: https://cdn.aframe.io/fonts/mozillavr.fnt; value: Fun Moments"></a-entity>-->
             </a-marker>
