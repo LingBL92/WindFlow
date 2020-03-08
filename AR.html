@@ -103,6 +103,11 @@
 			
             
         </script>
+	<script>
+	var draw = document.createElement('a-draw-curve');
+	draw.innerHTML = 'curveref='#track1' material='shader:line; color: red;'
+	document.getElementById('marker1').appendChild(draw)
+	</script>
     </head>
     <body>
 
@@ -152,7 +157,9 @@
 		    <a-curve-point position="1.14875 0.076365 0.259875"></a-curve-point>
 		    <a-curve-point position="1.1515 0.076715 0.243875"></a-curve-point>
 	   	</a-curve>
-		<a-draw-curve curveref='#track1' material='shader:line; color: blue;'></a-draw-curve>
+		
+		
+		<!--<a-draw-curve curveref='#track1' material='shader:line; color: blue;'></a-draw-curve>-->
                 <!--<a-entity text="font: https://cdn.aframe.io/fonts/mozillavr.fnt; value: Fun Moments"></a-entity>-->
             </a-marker>
 
