@@ -136,13 +136,21 @@
 
             <a-marker id="marker1" type='pattern' url='markers/letterA.patt'><!-- video-vidhandler>-->
 		<!--<a-obj-model src="#objModel" scale="0.5 0.5 0.5"></a-obj-model>-->
-		<a-entity obj-model="obj: url(model/AR_model.obj)" scale="0.005 0.005 0.005" position="0 0.05 0"></a-entity>
+		<a-entity obj-model="obj: url(model/model5_0.obj)" scale="0.005 0.005 0.005" position="0 0.01 0"></a-entity>
 		<!--<a-entity gltf-model="objModel" scale="0.7 0.7 0.7"></a-entity>-->
                 <!--<a-box position='0 1 0' depth="0.1" height="0.1" width="0.1" material='color: red;'></a-box>-->
-                <a-plane scale = "2.1 2.1" position='0 0.04 0' rotation="-90 0 0" material='transparent:true;src:#site'></a-plane>
+                <a-plane scale = "2.1 2.1" position='0 0.01 0' rotation="-90 0 0" material='transparent:true;src:#site'></a-plane>
 		<<a-curve id='track1'>
-			<a-curve-point position="1 0.5 0"></a-curve-point>
-			<a-curve-point position="-1 0.5 0"></a-curve-point>
+		    <a-curve-point position="1.125 0.075 0.375"></a-curve-point>
+		    <a-curve-point position="1.12875 0.07506 0.359205"></a-curve-point>
+		    <a-curve-point position="1.13235 0.07516 0.343365"></a-curve-point>
+		    <a-curve-point position="1.13575 0.0753 0.327495"></a-curve-point>
+		    <a-curve-point position="1.13825 0.07543 0.31556"></a-curve-point>
+		    <a-curve-point position="1.1414 0.075645 0.299635"></a-curve-point>
+		    <a-curve-point position="1.14445 0.075905 0.28369"></a-curve-point>
+		    <a-curve-point position="1.1471 0.076175 0.26916"></a-curve-point>
+		    <a-curve-point position="1.14875 0.076365 0.259875"></a-curve-point>
+		    <a-curve-point position="1.1515 0.076715 0.243875"></a-curve-point>
 	   	</a-curve>
 		<a-draw-curve curveref='#track1' material='shader:line; color: blue;'></a-draw-curve>
                 <!--<a-entity text="font: https://cdn.aframe.io/fonts/mozillavr.fnt; value: Fun Moments"></a-entity>-->
